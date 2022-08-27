@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Race.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="form">
+        <h1></h1>
+        <label for="name">Your full name</label>
+        <input type="text" id="name" required />
+        <label for="date">Birthday</label>
+        <input type="date" id="date" required />
+        <label for="early-or-late">Race start</label>
+        <select id="early-or-late">
+          <option value="9:30">9:30</option>
+          <option value="11:00">11:00</option>
+        </select>
+        <input type="button" value="Click" onclick="doIt()" />
+      </div>
+    </div>
+    <div style="text-align:center ;">
+      <h1 id="welcome"></h1>
+      <p id="p"></p>
+    </div>
+    <script src="Race.js"></script>
+  </body>
+</html>
